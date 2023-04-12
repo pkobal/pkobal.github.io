@@ -3,7 +3,7 @@ const profileobj = {
     username : "pkobal",
     birthday : "16.03.05",
     profilephoto : "/",
-    biography : "Patryk Obal is 18 jaar oud. Hij komt uit Polen en woont rond 5 jaar in de Nederland.",
+    biography : "Ik ben 18 jaar oud, ik kom uit Polen en ik woon in Nederland rond 5 jaar nu!",
     bannerColor : "",
     skills : ["Javascript", "HTML", "CSS"],
     projects : [
@@ -45,3 +45,9 @@ console.log(profileobj);
 
 const myUserNameView = document.querySelector('.my-username');
 myUserNameView.textContent = profileobj.username;
+
+const myBioView = document.querySelector('.my-biography');
+myBioView.textContent = profileobj.biography;
+
+const myBackGroundView = document.querySelector('.my-bg');
+myBackGroundView.style.backgroundColor = profileobj.bannerColor;
