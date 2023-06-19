@@ -1,3 +1,4 @@
-button {
-    margin-left: 705px;
+body {
+    background-image: url(/img/stacked-peaks-haikei.png);
+    background-size: cover;
 }

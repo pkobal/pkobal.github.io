@@ -1,6 +1,7 @@
 const profileobj = {
     emailadres : "302958475@student.rocmondriaan.nl",
     username : "pkobal",
+    realname: "Patryk Obal",
     birthday : "16.03.05",
     profilephoto : "/",
     biography : "Ik ben 18 jaar oud, ik kom uit Polen en ik woon in Nederland rond 5 jaar nu!",
